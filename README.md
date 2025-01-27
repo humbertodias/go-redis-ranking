@@ -4,8 +4,6 @@ This repository contains a basic setup using Go, Gin and Redis to build a rankin
 You can find a full tutorial on how to build this on the [soup.dev blog](https://www.soup.dev/post/building-a-ranking-system-with-go-and-redis).
 
 
-
-
 ## Setup 
 
 You should have Go and either Docker or Redis installed on your system.  
