@@ -43,7 +43,7 @@ curl -X POST http://localhost:8080/register -d '{"name":"test"}'
 
 You can then use the id from the response to query the data for that entry:
 ```shell
-curl -X GET “http://localhost:8080/rank?id=e309ab7e-6e02-4b60-a374-52cd5c2a41dd”
+curl -X GET "http://localhost:8080/rank?id=e309ab7e-6e02-4b60-a374-52cd5c2a41dd"
 ```
 ```
 {
@@ -56,7 +56,7 @@ curl -X GET “http://localhost:8080/rank?id=e309ab7e-6e02-4b60-a374-52cd5c2a41d
 
 Finally, you can get slices of the leaderboard by sending:
 ```shell
-curl -X GET http://localhost:8080/ranks?loffset=1&imit=3
+curl -X GET "http://localhost:8080/ranks?loffset=1&imit=3"
 ```
 ```
 [
